@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="640" alt="github-readme-terminal" src="https://raw.githubusercontent.com/x0rzavi/github-readme-terminal/main/docs/assets/logo.png">
+    <img width="640" alt="github-readme-terminal" src="https://raw.githubusercontent.com/sanjjaystars/github-readme-terminal/main/docs/assets/logo.png">
     <br>
     <b>✨ Elevate your GitHub Profile ReadMe with Minimalistic Retro Terminal GIFs 🚀</b>
 </p>
@@ -68,7 +68,7 @@ t = gifos.Terminal(width=320, height=240, xpad=5, ypad=5)
 t.gen_text(text="Hello World!", row_num=1)
 t.gen_text(text="With \x1b[32mANSI\x1b[0m escape sequence support!", row_num=2)
 github_stats = gifos.utils.fetch_github_stats(
-    user_name="x0rzavi"
+    user_name="sanjjaystars"
 )  # needs GITHUB_TOKEN in .env or as environment variable
 t.delete_row(row_num=1)
 t.gen_text(text=f"GitHub Name: {github_stats.account_name}", row_num=1, contin=True)
@@ -79,7 +79,7 @@ image = gifos.utils.upload_imgbb(
 print(image.url)
 ```
 
-For advanced usage, please refer [here](https://github.com/x0rzavi/x0rzavi)
+For advanced usage, please refer [here](https://github.com/sanjjaystars/sanjjaystars)
 
 ## 🛠️ Configuration
 
@@ -100,7 +100,7 @@ debug = false
 cursor = "_"
 show_cursor = true
 blink_cursor = true
-user_name = "x0rzavi" # for prompt
+user_name = "sanjjaystars" # for prompt
 fps = 15
 color_scheme = "yoru"
 loop_count = 0 # infinite loop
@@ -187,11 +187,11 @@ Optional API keys for modules must be present in `.env` file or declared as envi
 
 This is an open source project licensed under MIT and we welcome contributions from the community. We appreciate all types of contributions, including bug reports, feature requests, documentation improvements, and code contributions.
 
-Read our [Contributing Guidelines](https://github.com/x0rzavi/github-readme-terminal/blob/main/CONTRIBUTING.md) to learn about our development process, how to propose bug fixes and improvements of our Project
+Read our [Contributing Guidelines](https://github.com/sanjjaystars/github-readme-terminal/blob/main/CONTRIBUTING.md) to learn about our development process, how to propose bug fixes and improvements of our Project
 
 <h2>Code Of Conduct📑</h2>
 
-This project and everyone participating in it is governed by the [Code of Conduct](https://github.com/x0rzavi/github-readme-terminal/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+This project and everyone participating in it is governed by the [Code of Conduct](https://github.com/sanjjaystars/github-readme-terminal/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
 ## 🤝 Acknowledgments
 
@@ -200,4 +200,4 @@ This project and everyone participating in it is governed by the [Code of Conduc
 - [hchargois/gohufont](https://github.com/hchargois/gohufont) - Built-in font file.
 - Creators of all the color schemes included in this project.
 
-## ✨ Craft your masterpiece with github-readme-terminal and showcase your unique GitHub profile [here](https://github.com/x0rzavi/github-readme-terminal/discussions/categories/show-and-tell) ✨
+## ✨ Craft your masterpiece with github-readme-terminal and showcase your unique GitHub profile [here](https://github.com/sanjjaystars/github-readme-terminal/discussions/categories/show-and-tell) ✨
