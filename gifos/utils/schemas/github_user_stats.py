@@ -32,6 +32,7 @@ class GithubUserStats:
         "total_issues",
         "total_commits_all_time",
         "total_commits_last_year",
+        "total_contributions_last_year",
         "total_pull_requests_made",
         "total_pull_requests_merged",
         "pull_requests_merge_percentage",
@@ -46,6 +47,7 @@ class GithubUserStats:
     total_issues: int
     total_commits_all_time: int
     total_commits_last_year: int
+    total_contributions_last_year: int
     total_pull_requests_made: int
     total_pull_requests_merged: int
     pull_requests_merge_percentage: float

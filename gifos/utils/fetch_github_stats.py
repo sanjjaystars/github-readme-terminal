@@ -132,9 +132,9 @@ def fetch_user_stats(user_name: str) -> dict:
                 totalCount
             }
             contributionsCollection {
-                # contributionCalendar {
-                #     totalContributions
-                # }
+                contributionCalendar {
+                    totalContributions
+                }
                 totalCommitContributions
                 restrictedContributionsCount
                 totalPullRequestReviewContributions
@@ -306,6 +306,12 @@ def fetch_github_stats(
             total_commits_last_year=(
                 user_stats["contributionsCollection"]["restrictedContributionsCount"]
                 + user_stats["contributionsCollection"]["totalCommitContributions"]
+            ),
+            total_contributions_last_year=(
+                user_stats["contributionsCollection"]["contributionCalendar"][
+                    "totalContributions"
+                ]
+                + user_stats["contributionsCollection"]["restrictedContributionsCount"]
             ),
             total_pull_requests_made=user_stats["pullRequests"]["totalCount"],
             total_pull_requests_merged=user_stats["mergedPullRequests"]["totalCount"],
